@@ -27,11 +27,7 @@ public class Target : MonoBehaviour
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 //  Targets move up with random speed
     Vector3 RandomForce()
     {
